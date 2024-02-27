@@ -10,11 +10,10 @@ function App() {
     <div className="App">
       
       <Navbar/>
+      
       <Routes>
         <Route path='/add' element={<Home/>}/>
-        <Route path='/' element={<Api/>}/>
-        
-        
+        <Route path='/' element={<Api/>}/>    
       </Routes>
           
     </div>

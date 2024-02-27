@@ -11,25 +11,12 @@ const Navbar = () => {
                 <br /><br /><br />
                 <Typography sx={{flexGrow:1}} align='left' variant='h6'>Blogs</Typography>
                 &nbsp;
-                <Button variant='outlined' style={{color:'white'}} color='inherit'>
-                    <Link style={{color:'white'}} to='/add'>Add Blog</Link>
+                <Button variant='text' style={{color:'white'}} color='inherit'>
+                    <Link style={{color:'white'}} to='/add'>ADD BLOG</Link>
                 </Button>
-                &nbsp;
-                
-                &nbsp;
-            
-                
-                &nbsp;
-                
-                &nbsp;
-               
-                &nbsp;
-                <Button variant='outlined' style={{color:'white'}} color='inherit'>
-                    <Link style={{color:'white'}} to='/'>Home</Link>
-                </Button>
-               
-
-                
+                <Button variant='text' style={{color:'white'}} color='inherit'>
+                    <Link style={{color:'white'}} to='/'>HOME</Link>
+                </Button>   
             </Toolbar>
         </AppBar>
     </div>

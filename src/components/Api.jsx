@@ -13,13 +13,13 @@ const Api = () => {
     })
   return (
     <div>
-        <h1>Blog Dashboard</h1>
+        <h1>BLOG DASHBOARD</h1>
         <TableContainer>
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell style={{color:'blue',fontWeight:'bold'}}>ID</TableCell>
-                        <TableCell style={{color:'blue',fontWeight:'bold'}}>Title</TableCell>
+                        <TableCell style={{color:'red',fontWeight:'bold'}}>ID</TableCell>
+                        <TableCell style={{color:'red',fontWeight:'bold'}}>TITLE</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -30,8 +30,8 @@ const Api = () => {
                                 <TableCell>{val.title}</TableCell>
                             </TableRow>
                         )
-                    } )}
-
+                    } 
+                )}
                 </TableBody>
             </Table>
         </TableContainer>
